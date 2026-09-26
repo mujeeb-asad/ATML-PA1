@@ -1,0 +1,10 @@
+method,true,predicted,images,share_of_true_class
+erm,giraffe,horse,287,38.114209827357236
+erm,dog,horse,286,37.04663212435233
+erm,dog,elephant,153,19.818652849740932
+dan_dg,dog,horse,264,34.196891191709845
+dan_dg,dog,elephant,181,23.44559585492228
+dan_dg,giraffe,horse,149,19.787516600265604
+sam,dog,elephant,205,26.55440414507772
+sam,dog,horse,176,22.797927461139896
+sam,giraffe,horse,157,20.849933598937582

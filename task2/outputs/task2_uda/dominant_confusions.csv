@@ -1,0 +1,13 @@
+method,true,predicted,images,share_of_true_class
+source_only,giraffe,horse,287,38.114209827357236
+source_only,dog,horse,286,37.04663212435233
+source_only,dog,elephant,153,19.818652849740932
+dan,dog,person,287,37.17616580310881
+dan,giraffe,person,234,31.07569721115538
+dan,elephant,person,199,26.891891891891888
+dann,elephant,house,530,71.62162162162163
+dann,horse,house,519,63.60294117647059
+dann,giraffe,house,448,59.495351925630814
+cdan,horse,person,790,96.81372549019608
+cdan,dog,person,759,98.31606217616581
+cdan,elephant,person,736,99.45945945945947

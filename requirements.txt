@@ -1,0 +1,39 @@
+# ATML PA1 - environment specification
+#
+# The recorded runs executed on Modal. The image is built by task*/run_task*_modal.py, which pins
+# only papermill; every other package resolved at image-build time. The versions below are the ones
+# the completed runs actually reported (Task 2 and Task 3 print a hardware/library attestation line
+# into their executed notebooks; Task 1 and Task 4 were built from the same image definition).
+#
+# Recorded by the runs:
+#   torch 2.11.0+cu128   cuda 12.8   cudnn 91900   python 3.11
+#   GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition, 95 GB, compute capability 12.0
+#
+# torch/torchvision must come from the cu128 index. Blackwell (sm_120) cannot launch kernels from the
+# default PyPI wheels, which are built against older CUDA:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0+cu128
+torchvision
+
+# pinned in the runners
+papermill==2.7.0
+
+# resolved at build time; no version was pinned by the runners or recorded by the runs, so these are
+# left unpinned deliberately rather than pinned to a value that was never verified
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tqdm
+pillow
+
+# task 1 only - openclip vit-b-32 backbone
+open_clip_torch
+
+# tasks 2, 3, 4 - parquet readers for the PACS and CIFAR mirrors
+pyarrow
