@@ -1,0 +1,42 @@
+{
+ "total_variation": 0.3006747611626292,
+ "bound": "target_error >= total_variation - source_error",
+ "ceiling_if_source_error_zero_percent": 69.93252388373708,
+ "ceiling_given_source_error_percent": {
+  "source_only": 76.17749091571402,
+  "dan": 76.72418576253813,
+  "dann": 77.78793272905544,
+  "cdan": 77.45393745059164,
+  "dan_mmd_0.1": 77.36188898213253,
+  "dan_mmd_10": 82.00664180837458,
+  "dann_domain_0.1": 76.38243855333178
+ },
+ "source_error_percent": {
+  "source_only": 6.244967031976945,
+  "dan": 6.791661878801037,
+  "dann": 7.855408845318368,
+  "cdan": 7.521413566854562,
+  "dan_mmd_0.1": 7.429365098395435,
+  "dan_mmd_10": 12.074117924637495,
+  "dann_domain_0.1": 6.449914669594703
+ },
+ "source_prior": {
+  "dog": 0.15472929261464272,
+  "elephant": 0.14681189096316752,
+  "giraffe": 0.13191770455995008,
+  "guitar": 0.08627161738809071,
+  "horse": 0.11851048795646761,
+  "house": 0.14485817786887828,
+  "person": 0.21690082864880308
+ },
+ "target_prior": {
+  "dog": 0.1964876558920845,
+  "elephant": 0.1883430898447442,
+  "giraffe": 0.1916518198014762,
+  "guitar": 0.15474675489946552,
+  "horse": 0.2076864342071774,
+  "house": 0.020361415118350726,
+  "person": 0.04072283023670145
+ },
+ "assumption": "the bound describes the limit of perfect marginal alignment, it is not a prediction of the error actually measured"
+}

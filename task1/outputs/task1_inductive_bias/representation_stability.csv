@@ -1,0 +1,16 @@
+backbone,transformation,cosine_stability
+resnet50,grayscale,0.788292407989502
+resnet50,hue rotated,0.8227326273918152
+resnet50,cue conflict,0.27621546387672424
+resnet50,translation 16px,0.9524930864572525
+resnet50,patch shuffled,0.7178500294685364
+vit_b_16,grayscale,0.7392765879631042
+vit_b_16,hue rotated,0.6894396543502808
+vit_b_16,cue conflict,0.2583458721637726
+vit_b_16,translation 16px,0.9743198454380035
+vit_b_16,patch shuffled,0.652247428894043
+clip_vit_b_32,grayscale,0.8931521773338318
+clip_vit_b_32,hue rotated,0.8935924172401428
+clip_vit_b_32,cue conflict,0.6795618534088135
+clip_vit_b_32,translation 16px,0.9680178016424179
+clip_vit_b_32,patch shuffled,0.7383148074150085

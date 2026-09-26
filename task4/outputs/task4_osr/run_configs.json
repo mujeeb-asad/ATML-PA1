@@ -1,0 +1,40 @@
+{
+ "vanilla": {
+  "run": "vanilla",
+  "epochs": 100,
+  "learning_rate": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "batch_size": 128,
+  "seed": 6304,
+  "best_epoch": 95,
+  "best_validation_accuracy": 95.76,
+  "seconds": 497.5197696685791
+ },
+ "gcsc": {
+  "run": "gcsc",
+  "epochs": 100,
+  "learning_rate": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "batch_size": 128,
+  "seed": 6304,
+  "best_epoch": 91,
+  "best_validation_accuracy": 95.86,
+  "seconds": 638.2508401870728
+ },
+ "proser": {
+  "run": "proser",
+  "initialised_from": "vanilla",
+  "epochs": 50,
+  "learning_rate": 0.001,
+  "num_dummies": 5,
+  "beta": 1.0,
+  "gamma": 0.1,
+  "mixup_alpha": 2.0,
+  "seed": 6304,
+  "best_epoch": 4,
+  "best_validation_accuracy": 95.18,
+  "seconds": 336.25887513160706
+ }
+}
